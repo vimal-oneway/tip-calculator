@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Mono";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    background-color: #c5e4e7;
+    font-family: "Space Mono";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .container {
+    background-color: white;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 370px;
+    width: 50%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wrapper .container .gets {
+    width: 48%;
+    font-weight: 700;
+    color: #5e7a7d;
+  }
+  .wrapper .container .gets input::-webkit-outer-spin-button,
+  .wrapper .container .gets input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .wrapper .container .gets .Billcon .labelBill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 95%;
+  }
+  .wrapper .container .gets .Billcon .labelBill p {
+    font-size: 10;
+    color: red;
+  }
+  .wrapper .container .gets .Billcon .inpBill {
+    width: 100%;
+  }
+  .wrapper .container .gets .Billcon .inpBill label {
+    position: relative;
+  }
+  .wrapper .container .gets .Billcon .inpBill label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./images/icon-dollar.svg") center/contain no-repeat;
+    background-size: 10px;
+  }
+  .wrapper .container .gets .Billcon .inpBill input {
+    padding: 10px 15%;
+    margin: 10px 0;
+    text-align: right;
+    border: none;
+    background-color: #f4fafa;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .wrapper .container .gets .Billcon .inpBill input:focus {
+    background-color: #f4fafa;
+    outline: none;
+    padding: 8px 14%;
+    border: 2px solid #c5e4e7;
+  }
+  .wrapper .container .gets .Billcon .inpBill input::-webkit-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Billcon .inpBill input:-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Billcon .inpBill input::-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Billcon .inpBill input::placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .selectTips {
+    margin: 10px 0;
+    width: 95%;
+  }
+  .wrapper .container .gets .selectTips .labelpercent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wrapper .container .gets .selectTips .labelpercent p {
+    font-size: 10;
+    color: red;
+  }
+  .wrapper .container .gets .selectTips .btns {
+    margin-top: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 30% 30%;
+        grid-template-columns: 30% 30% 30%;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    width: 95%;
+  }
+  .wrapper .container .gets .selectTips .btns button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00494d;
+    color: #f4fafa;
+    font-weight: 700;
+  }
+  .wrapper .container .gets .selectTips .btns button:hover,
+  .wrapper .container .gets .selectTips .btns button:focus {
+    color: #00494d;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    background-color: #26c0ab;
+  }
+  .wrapper .container .gets .selectTips .btns input[type="number"] {
+    max-width: 100%;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #f4fafa;
+    color: #00494d;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .wrapper .container .gets .selectTips .btns input[type="number"]:focus {
+    background-color: #f4fafa;
+    outline: none;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    padding: 6px 3px;
+    border: 2px solid #c5e4e7;
+  }
+  .wrapper .container .gets .Percon {
+    width: 95%;
+  }
+  .wrapper .container .gets .Percon .labelPer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wrapper .container .gets .Percon .labelPer p {
+    font-size: 10;
+    color: red;
+  }
+  .wrapper .container .gets .Percon .inpPerson {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .wrapper .container .gets .Percon .inpPerson label {
+    position: relative;
+  }
+  .wrapper .container .gets .Percon .inpPerson label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./images/icon-person.svg") center/contain no-repeat;
+    background-size: 10px;
+  }
+  .wrapper .container .gets .Percon .inpPerson input {
+    padding: 10px 15%;
+    margin: 10px 0;
+    text-align: right;
+    border: none;
+    background-color: #f4fafa;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .wrapper .container .gets .Percon .inpPerson input:focus {
+    background-color: #f4fafa;
+    outline: none;
+    padding: 8px 14%;
+    border: 2px solid #c5e4e7;
+  }
+  .wrapper .container .gets .Percon .inpPerson input::-webkit-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Percon .inpPerson input:-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Percon .inpPerson input::-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Percon .inpPerson input::placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .outputs {
+    background-color: #00494d;
+    border-radius: 12px;
+    width: 50%;
+    height: 100%;
+    color: #f4fafa;
+  }
+  .wrapper .container .outputs .amount {
+    margin: 40px 30px 20px 30px;
+  }
+  .wrapper .container .outputs .amount .tipAmount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .container .outputs .amount .tipAmount .TipText p {
+    font-size: 12px;
+    color: #7f9c9f;
+    font-weight: 500;
+  }
+  .wrapper .container .outputs .amount .tipAmount .tipDetail h1 {
+    font-size: 40px;
+    color: #26c0ab;
+  }
+  .wrapper .container .outputs .amount .Total {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .container .outputs .amount .Total .TolalText p {
+    font-size: 12px;
+    color: #7f9c9f;
+    font-weight: 500;
+  }
+  .wrapper .container .outputs .amount .Total .totalDetail h1 {
+    font-size: 40px;
+    color: #26c0ab;
+  }
+  .wrapper .container .outputs .resetBtn {
+    margin: 100px 30px 20px 30px;
+  }
+  .wrapper .container .outputs .resetBtn button {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #00494d;
+    border: none;
+    border-radius: 4px;
+    margin: 0;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    height: 25px;
+    color: #7f9c9f;
+    background-color: #c5e4e7;
+  }
+  .attribution a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .attribution a:hover {
+    color: #00494d;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    background-color: #c5e4e7;
+    font-family: "Space Mono";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20%;
+  }
+  .wrapper .container {
+    background-color: white;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .container .gets {
+    margin: 10% auto 0 auto;
+    width: 80%;
+    color: #5e7a7d;
+  }
+  .wrapper .container .gets input::-webkit-outer-spin-button,
+  .wrapper .container .gets input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .wrapper .container .gets .Billcon .labelBill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+  }
+  .wrapper .container .gets .Billcon .labelBill p {
+    font-size: 12;
+    color: red;
+  }
+  .wrapper .container .gets .Billcon .inpBill {
+    width: 10%;
+  }
+  .wrapper .container .gets .Billcon .inpBill label {
+    position: relative;
+  }
+  .wrapper .container .gets .Billcon .inpBill label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./images/icon-dollar.svg") center/contain no-repeat;
+    background-size: 10px;
+  }
+  .wrapper .container .gets .Billcon .inpBill input {
+    margin: 10px 0;
+    text-align: right;
+    border: none;
+    background-color: #f4fafa;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 100%;
+  }
+  .wrapper .container .gets .Billcon .inpBill input:focus {
+    background-color: #f4fafa;
+    outline: none;
+    padding: 10px 98%;
+    border: 2px solid #c5e4e7;
+  }
+  .wrapper .container .gets .Billcon .inpBill input::-webkit-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Billcon .inpBill input:-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Billcon .inpBill input::-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Billcon .inpBill input::placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .selectTips {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .wrapper .container .gets .selectTips .labelpercent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wrapper .container .gets .selectTips .labelpercent p {
+    font-size: 10;
+    color: red;
+  }
+  .wrapper .container .gets .selectTips .btns {
+    margin-top: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% 45%;
+        grid-template-columns: 45% 45%;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .wrapper .container .gets .selectTips .btns button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00494d;
+    color: #f4fafa;
+    font-weight: 700;
+  }
+  .wrapper .container .gets .selectTips .btns button:hover,
+  .wrapper .container .gets .selectTips .btns button:focus {
+    color: #00494d;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    background-color: #26c0ab;
+  }
+  .wrapper .container .gets .selectTips .btns input[type="number"] {
+    max-width: 100%;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #f4fafa;
+    color: #00494d;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .wrapper .container .gets .selectTips .btns input[type="number"]:focus {
+    background-color: #f4fafa;
+    outline: none;
+    padding: 6px 3px;
+    border: 2px solid #c5e4e7;
+  }
+  .wrapper .container .gets .Percon {
+    width: 100%;
+  }
+  .wrapper .container .gets .Percon .labelPer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wrapper .container .gets .Percon .labelPer p {
+    font-size: 16px;
+    color: red;
+  }
+  .wrapper .container .gets .Percon .inpPerson {
+    width: 12%;
+  }
+  .wrapper .container .gets .Percon .inpPerson label {
+    position: relative;
+  }
+  .wrapper .container .gets .Percon .inpPerson label:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./images/icon-person.svg") center/contain no-repeat;
+    background-size: 10px;
+  }
+  .wrapper .container .gets .Percon .inpPerson input {
+    padding: 12px 100%;
+    margin: 10px 0;
+    text-align: right;
+    border: none;
+    background-color: #f4fafa;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .wrapper .container .gets .Percon .inpPerson input:focus {
+    background-color: #f4fafa;
+    outline: none;
+    padding: 10px 98%;
+    border: 2px solid #c5e4e7;
+  }
+  .wrapper .container .gets .Percon .inpPerson input::-webkit-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Percon .inpPerson input:-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Percon .inpPerson input::-ms-input-placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .gets .Percon .inpPerson input::placeholder {
+    color: #7f9c9f;
+  }
+  .wrapper .container .outputs {
+    background-color: #00494d;
+    border-radius: 12px;
+    width: 80%;
+    padding: 40px 30px 30px 30px;
+    height: 100%;
+    margin: 20px auto;
+    color: #f4fafa;
+  }
+  .wrapper .container .outputs .amount .tipAmount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .container .outputs .amount .tipAmount .TipText p {
+    font-size: 12px;
+    color: #7f9c9f;
+    font-weight: 500;
+  }
+  .wrapper .container .outputs .amount .tipAmount .tipDetail h1 {
+    font-size: 30px;
+    color: #26c0ab;
+  }
+  .wrapper .container .outputs .amount .Total {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .container .outputs .amount .Total .TolalText p {
+    font-size: 12px;
+    color: #7f9c9f;
+    font-weight: 500;
+  }
+  .wrapper .container .outputs .amount .Total .totalDetail h1 {
+    font-size: 30px;
+    color: #26c0ab;
+  }
+  .wrapper .container .outputs .resetBtn {
+    margin-top: 30px;
+  }
+  .wrapper .container .outputs .resetBtn button {
+    width: 100%;
+    padding: 7px 0;
+    font-weight: 700;
+    color: #00494d;
+    border: none;
+    border-radius: 4px;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    height: 25px;
+    color: #7f9c9f;
+    background-color: white;
+  }
+  .attribution a {
+    color: #5e7a7d;
+    text-decoration: none;
+  }
+  .attribution a:hover,
+  .attribution a:active {
+    color: #26c0ab;
+  }
+}
+/*# sourceMappingURL=stlyes.css.map */
