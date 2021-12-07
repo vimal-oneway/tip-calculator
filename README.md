@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Tip calculator app](Tip calculator app.png)
+(./Tip calculator app.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution Link](https://github.com/vimal-oneway/tip-calculator)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
